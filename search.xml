@@ -1,33 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title></title>
+    <title>第一次try</title>
     <url>/2021/07/20/hello-world/</url>
-    <content><![CDATA[<h1 id="博客try"><a href="#博客try" class="headerlink" title="博客try"></a>博客try</h1><h2 id="小说一段"><a href="#小说一段" class="headerlink" title="小说一段"></a>小说一段</h2><p>怎么说捏 这个 博客的 hexo d   有点玄学了哦</p>
-<table>
-<thead>
-<tr>
-<th>t</th>
-<th>t1</th>
-<th>t2</th>
-</tr>
-</thead>
-<tbody><tr>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody></table>
+    <content><![CDATA[<p>这是我的第一次尝试</p>
+<p>这是我的第一次尝试</p>
+<p>这是我的第一次尝试</p>
+<p>这是我的第一次尝试</p>
+<p>这是我的第一次尝试</p>
+<p>这是我的第一次尝试</p>
+<p>这是我的第一次尝试</p>
+<p>这是我的第一次尝试</p>
+<p>这是我的第一次尝试</p>
+<p>这是我的第一次尝试</p>
+<p>这是我的第一次尝试</p>
+<p>这是我的第一次尝试</p>
+<p>这是我的第一次尝试</p>
+<p>这是我的第一次尝试</p>
 ]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>牛逼</tag>
+      </tags>
   </entry>
 </search>
