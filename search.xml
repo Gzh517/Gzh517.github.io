@@ -260,4 +260,39 @@
         <tag>安卓</tag>
       </tags>
   </entry>
+  <entry>
+    <title>github图片仓库的创建以及使用</title>
+    <url>/2021/08/27/github%E5%9B%BE%E7%89%87%E4%BB%93%E5%BA%93%E7%9A%84%E5%88%9B%E5%BB%BA%E4%BB%A5%E5%8F%8A%E4%BD%BF%E7%94%A8/</url>
+    <content><![CDATA[<h2 id="使用流程"><a href="#使用流程" class="headerlink" title="使用流程"></a>使用流程</h2><ol>
+<li><p>创建github仓库     （网络教程很多 不细说）</p>
+</li>
+<li><p>建立完 ，将项目clone到本地  </p>
+</li>
+<li><p>在本地电脑中，寻找/创建一个合适的文件夹，将项目clone下来</p>
+<p>在Git bash 中运行  指令：  git clone  SSH</p>
+<p><img src="https://github.com/Gzh517/Photo/blob/master/img/github%E4%BB%93%E5%BA%93%E6%8C%87%E5%AF%BC.png?raw=true" alt="图片"></p>
+</li>
+<li><p>新建文件夹 并添加图片</p>
+</li>
+<li><p>在项目根目录 打开Git Bash  依次输入代码</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git add .</span><br><span class="line">git commit -am 第一次添加图片</span><br><span class="line">git push</span><br></pre></td></tr></table></figure></li>
+<li><p>成功后回 github仓库中 即可查看到新添加的图片</p>
+</li>
+<li><p>进入仓库中 ，打开图片 对 图片右键，点击 复制图片地址  在markdown中 使用方式 </p>
+<p>！[图片介绍可不写]  ( 图片地址)</p>
+</li>
+</ol>
+<h3 id="遇到问题"><a href="#遇到问题" class="headerlink" title="遇到问题"></a>遇到问题</h3><p>一.  github 仓库 图片 裂开 无法显示 无法获取图片地址</p>
+<p>进入C:\Windows\System32\drivers\etc\hosts   打开添加 代码</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># GitHub Start </span><br><span class="line">140.82.113.3      github.com</span><br><span class="line">140.82.114.20     gist.github.com</span><br><span class="line"></span><br><span class="line">151.101.184.133    assets-cdn.github.com</span><br><span class="line">151.101.184.133    raw.githubusercontent.com</span><br><span class="line">199.232.28.133     raw.githubusercontent.com </span><br><span class="line">151.101.184.133    gist.githubusercontent.com</span><br><span class="line">151.101.184.133    cloud.githubusercontent.com</span><br><span class="line">151.101.184.133    camo.githubusercontent.com</span><br><span class="line">199.232.96.133     avatars.githubusercontent.com</span><br><span class="line">151.101.184.133    avatars0.githubusercontent.com</span><br><span class="line">199.232.68.133     avatars0.githubusercontent.com</span><br><span class="line">199.232.28.133     avatars0.githubusercontent.com </span><br><span class="line">199.232.28.133     avatars1.githubusercontent.com</span><br><span class="line">151.101.184.133    avatars1.githubusercontent.com</span><br><span class="line">151.101.108.133    avatars1.githubusercontent.com</span><br><span class="line">151.101.184.133    avatars2.githubusercontent.com</span><br><span class="line">199.232.28.133     avatars2.githubusercontent.com</span><br><span class="line">151.101.184.133    avatars3.githubusercontent.com</span><br><span class="line">199.232.68.133     avatars3.githubusercontent.com</span><br><span class="line">151.101.184.133    avatars4.githubusercontent.com</span><br><span class="line">199.232.68.133     avatars4.githubusercontent.com</span><br><span class="line">151.101.184.133    avatars5.githubusercontent.com</span><br><span class="line">199.232.68.133     avatars5.githubusercontent.com</span><br><span class="line">151.101.184.133    avatars6.githubusercontent.com</span><br><span class="line">199.232.68.133     avatars6.githubusercontent.com</span><br><span class="line">151.101.184.133    avatars7.githubusercontent.com</span><br><span class="line">199.232.68.133     avatars7.githubusercontent.com</span><br><span class="line">151.101.184.133    avatars8.githubusercontent.com</span><br><span class="line">199.232.68.133     avatars8.githubusercontent.com</span><br><span class="line">199.232.96.133     avatars9.githubusercontent.com</span><br><span class="line"></span><br><span class="line"># GitHub End</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>然后保存文件就OK了，至于无法保存，没有修改权限，鼠标右键-属性-安全-修改权限；或将<code>hosts</code>文件复制一份，修改之后，复制到原文件夹替换！</p>
+<p>（  可以 运行 记事本 然后右键 以管理员身份运行就可以保存了 不然没有权限）</p>
+<p>保存后   win+R  运行 <strong>ipconfig/flush</strong>  刷新一下  回去github仓库就发现可以看到图片了</p>
+]]></content>
+      <tags>
+        <tag>学习</tag>
+        <tag>探索</tag>
+      </tags>
+  </entry>
 </search>
