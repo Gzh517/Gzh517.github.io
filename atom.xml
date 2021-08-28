@@ -6,7 +6,7 @@
   <link href="https://gzh517.github.io/atom.xml" rel="self"/>
   
   <link href="https://gzh517.github.io/"/>
-  <updated>2021-08-27T07:32:42.024Z</updated>
+  <updated>2021-08-28T03:14:16.881Z</updated>
   <id>https://gzh517.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>统计字典序元音字符串的数目</title>
+    <link href="https://gzh517.github.io/2021/08/28/%E7%BB%9F%E8%AE%A1%E5%AD%97%E5%85%B8%E5%BA%8F%E5%85%83%E9%9F%B3%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9A%84%E6%95%B0%E7%9B%AE/"/>
+    <id>https://gzh517.github.io/2021/08/28/%E7%BB%9F%E8%AE%A1%E5%AD%97%E5%85%B8%E5%BA%8F%E5%85%83%E9%9F%B3%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9A%84%E6%95%B0%E7%9B%AE/</id>
+    <published>2021-08-28T00:50:56.000Z</published>
+    <updated>2021-08-28T03:14:16.881Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;1641-统计字典序元音字符串的数目&quot;&gt;&lt;a href=&quot;#1641-统计字典序元音字符串的数目&quot; class=&quot;headerlink&quot; title=&quot;1641. 统计字典序元音字符串的数目&quot;&gt;&lt;/a&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    
+    <category term="力扣" scheme="https://gzh517.github.io/tags/%E5%8A%9B%E6%89%A3/"/>
+    
+    <category term="算法" scheme="https://gzh517.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
   
   <entry>
     <title>github图片仓库的创建以及使用</title>
