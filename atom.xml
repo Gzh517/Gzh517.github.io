@@ -128,11 +128,21 @@
     <link href="https://gzh517.github.io/2021/08/22/git%E6%93%8D%E4%BD%9C/"/>
     <id>https://gzh517.github.io/2021/08/22/git%E6%93%8D%E4%BD%9C/</id>
     <published>2021-08-22T09:09:20.000Z</published>
-    <updated>2021-08-22T09:09:20.069Z</updated>
+    <updated>2021-08-28T11:57:35.451Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;git init 初始化git生成git仓库&lt;br&gt;git log 查看日志              码 可只取 前7位&lt;br&gt;git status 查看git状态&lt;br&gt;git add filename添文件到暂存区&lt;br&gt;git add</summary>
+        
+      
     
     
     
     
+    <category term="Git" scheme="https://gzh517.github.io/tags/Git/"/>
     
   </entry>
   

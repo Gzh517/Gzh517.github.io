@@ -3,7 +3,11 @@
   <entry>
     <title>git操作</title>
     <url>/2021/08/22/git%E6%93%8D%E4%BD%9C/</url>
-    <content><![CDATA[]]></content>
+    <content><![CDATA[<p>git init 初始化git生成git仓库<br>git log 查看日志              码 可只取 前7位<br>git status 查看git状态<br>git add filename添文件到暂存区<br>git add .加入所有文件到暂存区<br>git commite -m message提交文件到本地仓库<br>git reset filename将尚没有commite之前加入到暂存区的文件重新拉回<br>git checkout  取消操作 （还没add入缓存区）</p>
+]]></content>
+      <tags>
+        <tag>Git</tag>
+      </tags>
   </entry>
   <entry>
     <title>167.两数之和II</title>
